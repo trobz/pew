@@ -13,17 +13,17 @@ https://github.com/berdario/pew#usage'''
 
 
 setup(
-    name='pew',
-    version='0.1.17',
-    description='tool to manage multiple virtualenvs written in pure python',
+    name='pew-trobz',
+    version='0.1.17.2',
+    description='tool to manage multiple virtualenvs written in pure python, trobz\'s fork',
     long_description=long_desc,
     author='Dario Bertini',
     author_email='berdario+pypi@gmail.com',
-    url='https://github.com/berdario/pew',
+    url='https://github.com/trobz/pew/tree/trobz',
     license='MIT License',
     packages=['pew'],
     install_requires=[
-        'virtualenv>=1.11', 'virtualenv-clone>=0.2.5', 'setuptools>=17.1', 'pythonz-bd>=1.10.2'
+        'virtualenv-trobz>=16.7.10.1', 'virtualenv-clone>=0.2.5', 'setuptools>=17.1', 'pythonz-trobz>=1.10.4.1'
     ],
     extras_require={
         ':python_version=="2.6"': [

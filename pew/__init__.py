@@ -3,7 +3,7 @@ import pkg_resources
 import sys
 
 try:
-    __version__ = pkg_resources.get_distribution('pew').version
+    __version__ = pkg_resources.get_distribution('pew-trobz').version
 except pkg_resources.DistributionNotFound:
     __version__ = 'unknown'
     print('Setuptools has some issues here, failed to get our own package.', file=sys.stderr)
